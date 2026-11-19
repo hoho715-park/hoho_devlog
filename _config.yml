@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────
+#  사이트 기본 정보 (여기만 바꾸면 대부분 반영됩니다)
+# ─────────────────────────────────────────────
+title: "hoho devlog"
+description: "공부한 내용을 차곡차곡 기록하는 개발 블로그"
+lang: ko
+timezone: Asia/Seoul
+
+author:
+  name: hoho715
+  bio: "배운 것을 기록하고, 기록한 것을 다시 배웁니다."
+  avatar: /assets/images/avatar.svg   # 본인 사진으로 교체 가능 (예: /assets/images/me.jpg)
+  github: hoho715                      # GitHub 아이디 (없으면 비워두기)
+  email: ""                            # 공개할 이메일 (없으면 비워두기)
+
+# ─────────────────────────────────────────────
+#  배포 주소
+#  - 저장소 이름이 <아이디>.github.io  → baseurl: ""
+#  - 저장소 이름이 hoho_devlog 등 다른 이름 → baseurl: "/저장소이름"
+# ─────────────────────────────────────────────
+url: "https://hoho715.github.io"
+baseurl: "/hoho_devlog"
+
+# 글 주소 형식
+permalink: /posts/:year/:month/:day/:title/
+
+# 홈 화면 페이지당 글 수
+paginate: 8
+paginate_path: "/page/:num/"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache

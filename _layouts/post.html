@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% assign category = page.categories | first %}
+{% assign chars = content | strip_html | size %}
+{% assign minutes = chars | divided_by: 600 | plus: 1 %}
+
+<article class="post">
+  <header class="post__header">
+    {% if category %}
+      <a class="chip" href="{{ '/categories/' | relative_url }}?c={{ category | uri_escape }}">{{ category }}</a>
+    {% else %}
+      <span class="chip chip--muted">카테고리 없음</span>
+    {% endif %}
+    <h1 class="post__title">{{ page.title }}</h1>
+    <div class="post__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y. %-m. %-d." }}</time>
+      <span class="dot">·</span>
+      <span>{{ minutes }}분 읽기</span>
+    </div>
+    {% assign tag_count = page.tags | size %}
+    {% if tag_count > 0 %}
+    <ul class="tags">
+      {% for tag in page.tags %}<li>#{{ tag }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  <div class="post__content">
+    {{ content }}
+  </div>
+
+  <nav class="post-nav" aria-label="이전/다음 글">
+    {% if page.previous %}
+      <a class="post-nav__item post-nav__item--prev" href="{{ page.previous.url | relative_url }}">
+        <span class="post-nav__label">← 이전 글</span>
+        <span class="post-nav__title">{{ page.previous.title }}</span>
+      </a>
+    {% else %}<span></span>{% endif %}
+    {% if page.next %}
+      <a class="post-nav__item post-nav__item--next" href="{{ page.next.url | relative_url }}">
+        <span class="post-nav__label">다음 글 →</span>
+        <span class="post-nav__title">{{ page.next.title }}</span>
+      </a>
+    {% endif %}
+  </nav>
+
+  <div class="post__back">
+    <a href="{{ '/' | relative_url }}">목록으로 돌아가기</a>
+  </div>
+</article>

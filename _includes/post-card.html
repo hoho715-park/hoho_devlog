@@ -1,0 +1,24 @@
+{% assign p = include.post %}
+{% assign category = p.categories | first %}
+<article class="post-card{% if p.thumbnail %} has-thumb{% endif %}">
+  <div class="post-card__body">
+    <h2 class="post-card__title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
+    <a class="post-card__excerpt" href="{{ p.url | relative_url }}" tabindex="-1">
+      {% if p.description %}{{ p.description }}{% else %}{{ p.content | strip_html | strip_newlines | truncate: 220 }}{% endif %}
+    </a>
+    <div class="post-card__meta">
+      {% if category %}
+        <a class="post-card__category" href="{{ '/categories/' | relative_url }}?c={{ category | uri_escape }}">{{ category }}</a>
+      {% else %}
+        <span class="post-card__category is-muted">카테고리 없음</span>
+      {% endif %}
+      <span class="sep"></span>
+      <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%Y. %-m. %-d. %H:%M" }}</time>
+    </div>
+  </div>
+  {% if p.thumbnail %}
+  <a class="post-card__thumb" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ p.thumbnail | relative_url }}" alt="" loading="lazy">
+  </a>
+  {% endif %}
+</article>

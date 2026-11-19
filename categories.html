@@ -1,0 +1,31 @@
+---
+layout: default
+title: 카테고리
+header_title: 카테고리
+permalink: /categories/
+---
+{% assign cats = site.categories | sort %}
+<div class="chips" data-category-chips>
+  <button type="button" class="chip is-active" data-filter="">전체 <span>{{ site.posts | size }}</span></button>
+  {% for cat in cats %}
+    <button type="button" class="chip" data-filter="{{ cat[0] | escape }}">{{ cat[0] }} <span>{{ cat[1] | size }}</span></button>
+  {% endfor %}
+</div>
+
+<h2 class="section-title" data-category-title>전체 글</h2>
+
+<ul class="archive" data-category-list>
+  {% for post in site.posts %}
+    {% assign category = post.categories | first %}
+    <li class="archive__item" data-category="{{ category | escape }}">
+      <a href="{{ post.url | relative_url }}">
+        <span class="archive__title">{{ post.title }}</span>
+        <span class="archive__meta">
+          <span class="archive__cat">{{ category | default: "카테고리 없음" }}</span>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y. %-m. %-d." }}</time>
+        </span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+<p class="empty" data-category-empty hidden>이 카테고리에는 아직 글이 없습니다.</p>
