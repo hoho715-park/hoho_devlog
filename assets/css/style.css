@@ -311,6 +311,16 @@ button { font: inherit; color: inherit; }
 .post__content li { margin: .3em 0; }
 .post__content li::marker { color: var(--accent); }
 .post__content img { display: block; margin: 1.6em auto; border-radius: var(--radius); }
+.post__content img[src$=".svg"]:not([width]) { width: 100%; border: 1px solid var(--border); }
+/* 이미지 바로 다음 줄의 *캡션* */
+.post__content img + em {
+  display: block;
+  margin: -0.8em 0 1.6em;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--text-muted);
+}
 .post__content hr { border: 0; height: 1px; background: var(--border); margin: 3em 0; }
 
 .post__content blockquote {

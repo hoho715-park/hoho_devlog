@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#14a085"/>
+    </marker>
+    <marker id="a2o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#f2a93b"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="290" fill="#ffffff"/>
+
+  <rect x="20" y="60" width="150" height="90" rx="12" fill="#f3faf8" stroke="#14a085" stroke-width="2"/>
+  <text x="95" y="98" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">1. read-design</text>
+  <text x="95" y="124" font-size="14" fill="#8b929a" text-anchor="middle">open_transaction</text>
+
+  <rect x="200" y="60" width="150" height="90" rx="12" fill="#f3faf8" stroke="#14a085" stroke-width="2"/>
+  <text x="275" y="98" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">2. edit-design</text>
+  <text x="275" y="124" font-size="14" fill="#8b929a" text-anchor="middle">keep_open</text>
+
+  <rect x="380" y="60" width="150" height="90" rx="12" fill="#fff6e8" stroke="#f2a93b" stroke-width="2"/>
+  <text x="455" y="98" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">3. 미리보기 확인</text>
+  <text x="455" y="124" font-size="14" fill="#8b929a" text-anchor="middle">사용자 승인</text>
+
+  <rect x="560" y="60" width="150" height="90" rx="12" fill="#14a085"/>
+  <text x="635" y="98" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">4. edit-design</text>
+  <text x="635" y="124" font-size="14" fill="#ffffff" text-anchor="middle">commit (저장)</text>
+
+  <line x1="172" y1="105" x2="197" y2="105" stroke="#14a085" stroke-width="2.5" marker-end="url(#a2)"/>
+  <line x1="352" y1="105" x2="377" y2="105" stroke="#14a085" stroke-width="2.5" marker-end="url(#a2)"/>
+  <line x1="532" y1="105" x2="557" y2="105" stroke="#14a085" stroke-width="2.5" marker-end="url(#a2)"/>
+
+  <path d="M455 152 L455 210 L275 210 L275 154" fill="none" stroke="#f2a93b" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a2o)"/>
+  <text x="365" y="236" font-size="14" fill="#1f2328" text-anchor="middle">고칠 점이 있으면 다시 2단계로</text>
+
+  <text x="360" y="36" font-size="15" fill="#8b929a" text-anchor="middle">commit 전까지는 임시 상태 · cancel로 폐기 가능</text>
+  <text x="635" y="180" font-size="14" fill="#f2a93b" font-weight="700" text-anchor="middle">되돌릴 수 없음</text>
+</svg>

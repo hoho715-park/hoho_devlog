@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#14a085"/>
+    </marker>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#8b929a"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="260" fill="#ffffff"/>
+
+  <rect x="20" y="50" width="150" height="90" rx="12" fill="#f3faf8" stroke="#14a085" stroke-width="2"/>
+  <text x="95" y="90" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">사용자</text>
+  <text x="95" y="116" font-size="14" fill="#8b929a" text-anchor="middle">자연어 요청</text>
+
+  <rect x="200" y="50" width="150" height="90" rx="12" fill="#14a085"/>
+  <text x="275" y="90" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Claude</text>
+  <text x="275" y="116" font-size="14" fill="#ffffff" text-anchor="middle">도구 선택·호출</text>
+
+  <rect x="380" y="50" width="150" height="90" rx="12" fill="#f3faf8" stroke="#2f5bd3" stroke-width="2"/>
+  <text x="455" y="90" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Canva 커넥터</text>
+  <text x="455" y="116" font-size="14" fill="#8b929a" text-anchor="middle">MCP 도구 모음</text>
+
+  <rect x="560" y="50" width="150" height="90" rx="12" fill="#2f5bd3"/>
+  <text x="635" y="90" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Canva</text>
+  <text x="635" y="116" font-size="14" fill="#ffffff" text-anchor="middle">내 디자인</text>
+
+  <line x1="172" y1="95" x2="197" y2="95" stroke="#14a085" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="352" y1="95" x2="377" y2="95" stroke="#14a085" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="532" y1="95" x2="557" y2="95" stroke="#14a085" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <path d="M635 145 L635 190 L95 190 L95 146" fill="none" stroke="#8b929a" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowGray)"/>
+  <rect x="245" y="176" width="230" height="28" rx="6" fill="#ffffff"/>
+  <text x="360" y="196" font-size="14" fill="#8b929a" text-anchor="middle">결과 반환 (썸네일·문서 구조)</text>
+
+  <text x="360" y="236" font-size="14" fill="#f2a93b" font-weight="700" text-anchor="middle">저장(commit)은 사용자 승인 후에만</text>
+</svg>

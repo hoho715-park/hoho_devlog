@@ -10,7 +10,7 @@ author:
   name: hoho715
   bio: "배운 것을 기록하고, 기록한 것을 다시 배웁니다."
   avatar: /assets/images/avatar.svg   # 본인 사진으로 교체 가능 (예: /assets/images/me.jpg)
-  github: hoho715                      # GitHub 아이디 (없으면 비워두기)
+  github: hoho715-park                    # GitHub 아이디 (없으면 비워두기)
   email: ""                            # 공개할 이메일 (없으면 비워두기)
 
 # ─────────────────────────────────────────────
@@ -18,7 +18,7 @@ author:
 #  - 저장소 이름이 <아이디>.github.io  → baseurl: ""
 #  - 저장소 이름이 hoho_devlog 등 다른 이름 → baseurl: "/저장소이름"
 # ─────────────────────────────────────────────
-url: "https://hoho715.github.io"
+url: "https://hoho715-park.github.io"
 baseurl: "/hoho_devlog"
 
 # 글 주소 형식
@@ -49,6 +49,8 @@ defaults:
 
 exclude:
   - README.md
+  - CLAUDE.md
+  - prompts
   - Gemfile
   - Gemfile.lock
   - vendor

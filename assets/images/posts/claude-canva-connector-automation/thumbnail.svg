@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="240" height="240" fill="#f3faf8"/>
+  <rect x="26" y="70" width="78" height="64" rx="14" fill="#14a085"/>
+  <path d="M44 134 L40 152 L62 134 Z" fill="#14a085"/>
+  <circle cx="50" cy="102" r="6" fill="#ffffff"/>
+  <circle cx="65" cy="102" r="6" fill="#ffffff"/>
+  <circle cx="80" cy="102" r="6" fill="#ffffff"/>
+  <path d="M110 102 L128 102" stroke="#f2a93b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M122 94 L132 102 L122 110" fill="none" stroke="#f2a93b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="138" y="58" width="78" height="92" rx="10" fill="#ffffff" stroke="#2f5bd3" stroke-width="3"/>
+  <rect x="150" y="72" width="54" height="10" rx="4" fill="#2f5bd3"/>
+  <rect x="158" y="92" width="38" height="22" rx="4" fill="#14a085"/>
+  <rect x="152" y="124" width="50" height="8" rx="4" fill="#8b929a"/>
+  <text x="120" y="196" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">Claude × Canva</text>
+</svg>

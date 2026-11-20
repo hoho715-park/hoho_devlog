@@ -18,4 +18,4 @@ permalink: /about/
 
 ## 연락처
 
-- GitHub: [github.com/hoho715](https://github.com/hoho715)
+- GitHub: [github.com/hoho715-park](https://github.com/hoho715-park)

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+
+  <rect x="20" y="20" width="330" height="300" rx="14" fill="#f7f8f9" stroke="#8b929a" stroke-width="2"/>
+  <text x="185" y="56" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">방법 A: 새 페이지 + 재구성</text>
+  <rect x="40" y="80" width="290" height="50" rx="8" fill="#ffffff" stroke="#8b929a"/>
+  <text x="185" y="111" font-size="15" fill="#1f2328" text-anchor="middle">add_page로 빈 페이지 추가</text>
+  <rect x="40" y="145" width="290" height="50" rx="8" fill="#ffffff" stroke="#8b929a"/>
+  <text x="185" y="176" font-size="15" fill="#1f2328" text-anchor="middle">이미지·텍스트를 다시 배치</text>
+  <rect x="40" y="225" width="290" height="70" rx="8" fill="#fff6e8" stroke="#f2a93b" stroke-width="2"/>
+  <text x="185" y="255" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">결과: 폰트가 기본값으로 바뀜</text>
+  <text x="185" y="280" font-size="14" fill="#8b929a" text-anchor="middle">폰트 지정 옵션이 없음</text>
+
+  <rect x="370" y="20" width="330" height="300" rx="14" fill="#f3faf8" stroke="#14a085" stroke-width="2"/>
+  <text x="535" y="56" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">방법 B: 복제 + 텍스트 교체</text>
+  <rect x="390" y="80" width="290" height="50" rx="8" fill="#ffffff" stroke="#14a085"/>
+  <text x="535" y="111" font-size="15" fill="#1f2328" text-anchor="middle">merge-designs로 페이지 복제</text>
+  <rect x="390" y="145" width="290" height="50" rx="8" fill="#ffffff" stroke="#14a085"/>
+  <text x="535" y="176" font-size="15" fill="#1f2328" text-anchor="middle">replace_text로 이름·역할만 교체</text>
+  <rect x="390" y="225" width="290" height="70" rx="8" fill="#14a085"/>
+  <text x="535" y="255" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">결과: 원본 폰트·스타일 유지</text>
+  <text x="535" y="280" font-size="14" fill="#ffffff" text-anchor="middle">반복 작업에 적합</text>
+</svg>
