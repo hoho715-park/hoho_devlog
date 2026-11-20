@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#14a085"/>
+    </marker>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8b929a"/>
+    </marker>
+  </defs>
+  <g font-size="16" text-anchor="middle">
+    <rect x="20" y="90" width="130" height="70" rx="12" fill="#f3faf8" stroke="#8b929a" stroke-width="2"/>
+    <text x="85" y="122" fill="#1f2328" font-weight="700">나</text>
+    <text x="85" y="144" fill="#8b929a" font-size="14">채팅으로 요청</text>
+
+    <rect x="200" y="90" width="130" height="70" rx="12" fill="#14a085"/>
+    <text x="265" y="122" fill="#ffffff" font-weight="700">Claude</text>
+    <text x="265" y="144" fill="#ffffff" font-size="14">도구 선택·호출</text>
+
+    <rect x="380" y="90" width="140" height="70" rx="12" fill="#f3faf8" stroke="#14a085" stroke-width="2"/>
+    <text x="450" y="122" fill="#1f2328" font-weight="700">커넥터 (MCP)</text>
+    <text x="450" y="144" fill="#8b929a" font-size="14">도구 → API 변환</text>
+
+    <rect x="570" y="90" width="130" height="70" rx="12" fill="#ffffff" stroke="#2f5bd3" stroke-width="2"/>
+    <text x="635" y="122" fill="#2f5bd3" font-weight="700">Google</text>
+    <text x="635" y="144" fill="#2f5bd3" font-weight="700">Calendar</text>
+  </g>
+  <g stroke="#14a085" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <line x1="152" y1="115" x2="196" y2="115"/>
+    <line x1="332" y1="115" x2="376" y2="115"/>
+    <line x1="522" y1="115" x2="566" y2="115"/>
+  </g>
+  <path d="M635 164 L635 192 L85 192 L85 166" fill="none" stroke="#8b929a" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrowGray)"/>
+  <g font-size="14" fill="#1f2328" text-anchor="middle">
+    <text x="174" y="80">요청</text>
+    <text x="354" y="80">도구 호출</text>
+    <text x="544" y="80">API</text>
+  </g>
+  <rect x="190" y="180" width="340" height="24" fill="#ffffff"/>
+  <text x="360" y="197" font-size="14" fill="#8b929a" text-anchor="middle">결과(일정 목록, 수정 결과)가 같은 경로로 돌아온다</text>
+  <text x="360" y="40" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">Claude × Google Calendar 동작 구조</text>
+</svg>

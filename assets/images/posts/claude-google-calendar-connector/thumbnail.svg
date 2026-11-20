@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect width="240" height="240" rx="24" fill="#f3faf8"/>
+  <rect x="44" y="54" width="132" height="132" rx="14" fill="#ffffff" stroke="#14a085" stroke-width="4"/>
+  <path d="M44 68 a14 14 0 0 1 14 -14 h104 a14 14 0 0 1 14 14 v20 h-132 z" fill="#14a085"/>
+  <rect x="72" y="42" width="8" height="24" rx="4" fill="#1f2328"/>
+  <rect x="140" y="42" width="8" height="24" rx="4" fill="#1f2328"/>
+  <g fill="#8b929a">
+    <rect x="62" y="104" width="20" height="16" rx="3"/>
+    <rect x="94" y="104" width="20" height="16" rx="3"/>
+    <rect x="126" y="104" width="20" height="16" rx="3"/>
+    <rect x="62" y="132" width="20" height="16" rx="3"/>
+    <rect x="126" y="132" width="20" height="16" rx="3"/>
+    <rect x="62" y="160" width="20" height="16" rx="3"/>
+    <rect x="94" y="160" width="20" height="16" rx="3"/>
+  </g>
+  <rect x="94" y="132" width="20" height="16" rx="3" fill="#2f5bd3"/>
+  <circle cx="176" cy="176" r="34" fill="#f2a93b"/>
+  <path d="M176 156 c-10 0 -15 8 -15 16 v10 l-5 6 h40 l-5 -6 v-10 c0 -8 -5 -16 -15 -16 z" fill="#ffffff"/>
+  <circle cx="176" cy="193" r="4" fill="#ffffff"/>
+</svg>

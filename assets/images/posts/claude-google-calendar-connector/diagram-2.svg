@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect width="720" height="380" fill="#ffffff"/>
+  <text x="360" y="40" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">커넥터 도구 구성</text>
+
+  <rect x="40" y="64" width="300" height="290" rx="14" fill="#f3faf8" stroke="#14a085" stroke-width="2"/>
+  <rect x="40" y="64" width="300" height="48" rx="14" fill="#14a085"/>
+  <rect x="40" y="96" width="300" height="16" fill="#14a085"/>
+  <text x="190" y="95" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">읽기 (조회)</text>
+  <g font-size="15" fill="#1f2328">
+    <text x="64" y="148">list_calendars</text>
+    <text x="64" y="186">list_events</text>
+    <text x="64" y="224">search_events</text>
+    <text x="64" y="262">get_event</text>
+    <text x="64" y="300">suggest_time</text>
+  </g>
+  <text x="190" y="336" font-size="14" fill="#8b929a" text-anchor="middle">캘린더를 바꾸지 않음</text>
+
+  <rect x="380" y="64" width="300" height="290" rx="14" fill="#ffffff" stroke="#f2a93b" stroke-width="2"/>
+  <rect x="380" y="64" width="300" height="48" rx="14" fill="#f2a93b"/>
+  <rect x="380" y="96" width="300" height="16" fill="#f2a93b"/>
+  <text x="530" y="95" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">쓰기 (변경)</text>
+  <g font-size="15" fill="#1f2328">
+    <text x="404" y="148">create_event</text>
+    <text x="404" y="186">update_event</text>
+    <text x="404" y="224">delete_event</text>
+    <text x="404" y="262">respond_to_event</text>
+  </g>
+  <rect x="404" y="290" width="252" height="34" rx="8" fill="#fff6e6"/>
+  <text x="530" y="312" font-size="14" fill="#1f2328" text-anchor="middle">⚠ 바로 반영 → 실행 전 확인</text>
+</svg>

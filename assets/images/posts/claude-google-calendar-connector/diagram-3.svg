@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="360" y="40" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">종일 일정 알림 시점</text>
+
+  <rect x="60" y="130" width="300" height="20" fill="#f3faf8"/>
+  <rect x="360" y="130" width="300" height="20" fill="#e3f4ef"/>
+  <line x1="60" y1="150" x2="660" y2="150" stroke="#8b929a" stroke-width="2"/>
+  <text x="210" y="122" font-size="14" fill="#8b929a" text-anchor="middle">전날</text>
+  <text x="510" y="122" font-size="14" fill="#14a085" text-anchor="middle" font-weight="700">일정 당일</text>
+
+  <line x1="360" y1="100" x2="360" y2="190" stroke="#14a085" stroke-width="3"/>
+  <text x="360" y="212" font-size="15" fill="#14a085" text-anchor="middle" font-weight="700">00:00</text>
+  <text x="360" y="232" font-size="14" fill="#14a085" text-anchor="middle">기준점 (0분)</text>
+
+  <circle cx="347" cy="150" r="7" fill="#8b929a"/>
+  <line x1="347" y1="150" x2="250" y2="250" stroke="#8b929a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="200" y="262" font-size="14" fill="#1f2328" text-anchor="middle">기존: 30분 전</text>
+  <text x="200" y="282" font-size="14" fill="#8b929a" text-anchor="middle">→ 전날 23:30</text>
+
+  <circle cx="560" cy="150" r="9" fill="#f2a93b"/>
+  <text x="560" y="212" font-size="15" fill="#1f2328" text-anchor="middle" font-weight="700">08:00</text>
+  <text x="560" y="232" font-size="14" fill="#1f2328" text-anchor="middle">변경: -480분</text>
+
+  <path d="M362 92 Q460 62 556 92" fill="none" stroke="#f2a93b" stroke-width="2"/>
+  <text x="460" y="78" font-size="14" fill="#1f2328" text-anchor="middle">+8시간 = 480분 뒤</text>
+
+  <text x="60" y="176" font-size="14" fill="#8b929a">12:00</text>
+  <text x="660" y="176" font-size="14" fill="#8b929a" text-anchor="end">12:00</text>
+</svg>
