@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="240" height="240" fill="#f3faf8"/>
+  <!-- 말풍선 -->
+  <rect x="28" y="28" width="150" height="104" rx="16" fill="#ffffff" stroke="#14a085" stroke-width="3"/>
+  <path d="M138 132 L158 132 L150 148 Z" fill="#ffffff" stroke="#14a085" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="140" y="128" width="16" height="6" fill="#ffffff"/>
+  <!-- 일정 줄 -->
+  <rect x="44" y="46" width="5" height="18" rx="2" fill="#2f5bd3"/>
+  <rect x="56" y="50" width="92" height="9" rx="4" fill="#8b929a" opacity="0.6"/>
+  <!-- 체크리스트 -->
+  <rect x="44" y="78" width="16" height="16" rx="3" fill="#14a085"/>
+  <path d="M47 86 L51 90 L57 82" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="68" y="82" width="80" height="9" rx="4" fill="#8b929a" opacity="0.6"/>
+  <rect x="44" y="104" width="16" height="16" rx="3" fill="none" stroke="#8b929a" stroke-width="2.5"/>
+  <rect x="68" y="108" width="64" height="9" rx="4" fill="#8b929a" opacity="0.6"/>
+  <!-- 펫 -->
+  <ellipse cx="170" cy="216" rx="34" ry="6" fill="#1f2328" opacity="0.12"/>
+  <circle cx="140" cy="178" r="10" fill="#e8c9a8" stroke="#1f2328" stroke-width="3"/>
+  <circle cx="200" cy="178" r="10" fill="#e8c9a8" stroke="#1f2328" stroke-width="3"/>
+  <circle cx="170" cy="180" r="34" fill="#c08a6a" stroke="#1f2328" stroke-width="3"/>
+  <ellipse cx="158" cy="176" rx="11" ry="10" fill="#ffffff"/>
+  <ellipse cx="182" cy="176" rx="11" ry="10" fill="#ffffff"/>
+  <circle cx="158" cy="176" r="5" fill="#1f2328"/>
+  <circle cx="182" cy="176" r="5" fill="#1f2328"/>
+  <ellipse cx="170" cy="195" rx="14" ry="9" fill="#ffffff"/>
+  <path d="M163 194 Q170 201 177 194" fill="none" stroke="#1f2328" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 버튼 원 두 개 -->
+  <circle cx="44" cy="190" r="16" fill="#2f5bd3"/>
+  <circle cx="86" cy="190" r="16" fill="#f2a93b"/>
+</svg>
