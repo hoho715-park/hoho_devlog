@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="15">
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#8b929a"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="400" fill="#f3faf8"/>
+
+  <!-- 전 -->
+  <text x="45" y="104" text-anchor="middle" fill="#8b929a" font-weight="700" font-size="18">전</text>
+  <rect x="80" y="76" width="140" height="48" rx="10" fill="#ffffff" stroke="#8b929a" stroke-width="2"/>
+  <text x="150" y="105" text-anchor="middle" fill="#1f2328">작업 맡기기</text>
+  <rect x="245" y="76" width="140" height="48" rx="10" fill="#ffffff" stroke="#8b929a" stroke-width="2"/>
+  <text x="315" y="105" text-anchor="middle" fill="#1f2328">다른 작업</text>
+  <rect x="410" y="76" width="140" height="48" rx="10" fill="#ffffff" stroke="#8b929a" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="480" y="105" text-anchor="middle" fill="#1f2328" font-size="14">끝났나? 수시 확인</text>
+  <rect x="575" y="76" width="125" height="48" rx="10" fill="#ffffff" stroke="#8b929a" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="637" y="105" text-anchor="middle" fill="#8b929a">놓친 시간</text>
+  <line x1="220" y1="100" x2="243" y2="100" stroke="#8b929a" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="385" y1="100" x2="408" y2="100" stroke="#8b929a" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="550" y1="100" x2="573" y2="100" stroke="#8b929a" stroke-width="2" marker-end="url(#b)"/>
+  <text x="390" y="160" text-anchor="middle" fill="#8b929a" font-size="14">작업 흐름이 계속 끊긴다 ✗</text>
+
+  <line x1="30" y1="200" x2="690" y2="200" stroke="#8b929a" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <!-- 후 -->
+  <text x="45" y="274" text-anchor="middle" fill="#14a085" font-weight="700" font-size="18">후</text>
+  <rect x="80" y="246" width="140" height="48" rx="10" fill="#ffffff" stroke="#14a085" stroke-width="2"/>
+  <text x="150" y="275" text-anchor="middle" fill="#1f2328">작업 맡기기</text>
+  <rect x="245" y="246" width="140" height="48" rx="10" fill="#ffffff" stroke="#14a085" stroke-width="2"/>
+  <text x="315" y="275" text-anchor="middle" fill="#1f2328">다른 작업</text>
+  <rect x="410" y="246" width="140" height="48" rx="10" fill="#f2a93b"/>
+  <text x="480" y="275" text-anchor="middle" fill="#1f2328" font-weight="700">몽글이 알림</text>
+  <rect x="575" y="246" width="125" height="48" rx="10" fill="#14a085"/>
+  <text x="637" y="275" text-anchor="middle" fill="#ffffff" font-weight="700">바로 확인</text>
+  <line x1="220" y1="270" x2="243" y2="270" stroke="#8b929a" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="385" y1="270" x2="408" y2="270" stroke="#8b929a" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="550" y1="270" x2="573" y2="270" stroke="#8b929a" stroke-width="2" marker-end="url(#b)"/>
+  <text x="390" y="330" text-anchor="middle" fill="#14a085" font-size="14">알림이 올 때만 돌아가면 된다 ✓</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="240" height="240" fill="#f3faf8"/>
+  <!-- 터미널 창 -->
+  <rect x="24" y="30" width="120" height="84" rx="12" fill="#1f2328"/>
+  <circle cx="40" cy="44" r="4" fill="#f2a93b"/>
+  <circle cx="53" cy="44" r="4" fill="#8b929a"/>
+  <circle cx="66" cy="44" r="4" fill="#14a085"/>
+  <text x="38" y="88" fill="#14a085" font-size="26" font-weight="700">&gt;_</text>
+  <!-- 화살표 -->
+  <path d="M150 80 Q178 82 182 112" fill="none" stroke="#8b929a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M174 106 L182 116 L189 105" fill="none" stroke="#8b929a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 펫 -->
+  <ellipse cx="160" cy="218" rx="34" ry="6" fill="#1f2328" opacity="0.12"/>
+  <circle cx="130" cy="176" r="10" fill="#e8c9a8" stroke="#1f2328" stroke-width="3"/>
+  <circle cx="190" cy="176" r="10" fill="#e8c9a8" stroke="#1f2328" stroke-width="3"/>
+  <circle cx="160" cy="178" r="34" fill="#c08a6a" stroke="#1f2328" stroke-width="3"/>
+  <ellipse cx="148" cy="174" rx="11" ry="10" fill="#ffffff"/>
+  <ellipse cx="172" cy="174" rx="11" ry="10" fill="#ffffff"/>
+  <circle cx="148" cy="174" r="5" fill="#1f2328"/>
+  <circle cx="172" cy="174" r="5" fill="#1f2328"/>
+  <ellipse cx="160" cy="193" rx="14" ry="9" fill="#ffffff"/>
+  <path d="M153 192 Q160 199 167 192" fill="none" stroke="#1f2328" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 완료 배지 -->
+  <circle cx="200" cy="140" r="18" fill="#14a085" stroke="#ffffff" stroke-width="3"/>
+  <path d="M191 140 L198 147 L210 134" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 알림 표시 -->
+  <path d="M60 160 L60 150 M48 166 L40 160 M72 166 L80 160" stroke="#f2a93b" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="60" cy="186" r="16" fill="#f2a93b"/>
+  <circle cx="60" cy="186" r="6" fill="#ffffff"/>
+</svg>
